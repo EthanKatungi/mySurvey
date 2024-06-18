@@ -1,0 +1,111 @@
+body{
+    background: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg');
+    color: white;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    /* height: 100vh; */
+    background-attachment: fixed;
+}
+#survey-form{
+    background-color: rgba(27, 27, 50, 0.8);
+    width: 50%;
+    margin: auto;
+    border-radius: 0.25rem;
+    padding: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+h1, p{
+    margin: 10px auto;
+    display: block;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    font-weight: 200;
+}
+#description{
+    text-align: center;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+#title{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+.form-group{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+.input-field{
+    border-radius: 5px;
+    border: none;
+    width: 80%;
+    height: 30px;    
+    font-size: 17px;
+    padding: 5px;
+}
+label{
+    margin-bottom: 10px;
+    width: 80%;
+    font-size: 18px;
+}
+select{
+    border-radius: 5px;
+    border: none;
+    width: 80%;
+    height: 30px;
+    font-size: 17px;
+    padding: 5px;
+}
+.radio-group{
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    width: 90%;
+    padding-left: 0;
+}
+input[type="radio"]{
+    height: 20px;
+    margin-left: 20px;
+    width: 10%;
+}
+.check-group{
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    width: 80%;
+}
+input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+}
+.check-btn{
+    display: flex;
+}
+#textarea{
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+#dropdown{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    border: none;
+}
+button[type="submit"]{
+    width: 80%;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #37AF65;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: 40px;
+}
